@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+venv/
+.env
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Migrations (optional, keep if you want clean repo)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / testing
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Other
+*.bak
